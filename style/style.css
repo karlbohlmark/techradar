@@ -1,0 +1,58 @@
+
+body {
+  font: 10px sans-serif;
+}
+
+path.dot {
+  stroke-width: 1.5px;
+}
+
+circle{
+  stroke-width:3px;
+  fill:transparent;
+
+}
+
+path{
+    cursor:pointer;
+
+}karlbohlmark
+
+
+rect {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+text{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+
+}
+
+ul{
+    position:absolute;
+    left:800px;
+    top:65px;
+    list-style-type: decimal;
+
+}
+
+li{
+
+    font-size:12px;
+}
+
+label.tech{
+    position:absolute;
+    left:800px;
+    top:50px;
+
+}
+
+.x line, .y line {
+  stroke:#abc;
+stroke-width:1px;
+  shape-rendering: crispEdges;
+}
