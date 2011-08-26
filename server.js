@@ -25,9 +25,6 @@ app.use(require('browserify')({
 
 io.sockets.on('connection', function (socket) {
   socket.emit('radar', db.radar);
-  socket.on('radar', function (data) {
-    console.log(data);
-  });
 
   socket.on('tech-added',function(t){
     console.log('tech added');
@@ -38,7 +35,6 @@ io.sockets.on('connection', function (socket) {
 
 
   socket.on('tech-moved',function(t){
-    console.log('tech moved');
     db.radar.forEach(function(tech){
       if(tech.id == t.id){
         tech.x = t.x;
@@ -51,4 +47,4 @@ io.sockets.on('connection', function (socket) {
 });
 
 app.listen(9393);
-console.log('Listening on 8001...');
+console.log('Listening on 9393...');
