@@ -89,7 +89,16 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.14">
+            <state line="51" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.82">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/style/style.styl" />
         <option value="$PROJECT_DIR$/lib/view/todoview.js" />
         <option value="$PROJECT_DIR$/lib/model/tech.js" />
         <option value="$PROJECT_DIR$/lib/collection/TechList.js" />
@@ -130,6 +138,7 @@
         <option value="$PROJECT_DIR$/lib/model/radar.js" />
         <option value="$PROJECT_DIR$/radar.db" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/proxy.js" />
       </list>
     </option>
   </component>
@@ -311,7 +320,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23384832" sideWeight="0.9990715" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1889045" sideWeight="0.9990715" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -367,11 +376,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/node-jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collection/TechList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
@@ -433,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/techview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="43" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
@@ -468,9 +465,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.14">
+        <state line="51" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.82">
           <folding />
         </state>
       </provider>
