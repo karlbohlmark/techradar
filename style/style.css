@@ -1,6 +1,8 @@
 
 body {
   font: 10px sans-serif;
+    
+    font-family: monospace;
 }
 
 path.dot {
@@ -16,8 +18,7 @@ circle{
 path{
     cursor:pointer;
 
-}karlbohlmark
-
+}
 
 rect {
   fill: none;
@@ -33,22 +34,29 @@ text{
 
 ul{
     position:absolute;
-    left:800px;
-    top:65px;
+    left:795px;
+    top:80px;
     list-style-type: decimal;
 
 }
 
 li{
-
-    font-size:12px;
+    font-size:13px;
 }
 
 label.tech{
     position:absolute;
     left:800px;
     top:50px;
+    font-size:15px;
 
+}
+
+input{
+    border-radius: 3px;
+    border: none;
+    background-color:#333;
+    color:white;
 }
 
 .x line, .y line {
