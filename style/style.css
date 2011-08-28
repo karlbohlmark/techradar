@@ -1,7 +1,7 @@
 
 body {
   font: 10px sans-serif;
-    
+  margin: 0;
     font-family: monospace;
 }
 
@@ -40,8 +40,37 @@ ul{
 
 }
 
+.active{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+div.tech{
+    position:absolute;
+    border-radius: 7px;
+    width:14px;
+    height:14px;
+    background-color:#fe5533;
+}
+
+div.tech:hover{
+    opacity: .7;
+}
+
+div.tech span{
+    position:relative;
+    left:17px;pointer-events:none;width:100px;display:block;
+    -webkit-user-select:none;
+    font-size: 12px;
+}
+
 li{
     font-size:13px;
+    width:130px;
+}
+
+li a{
+    float:right;
 }
 
 label.tech{

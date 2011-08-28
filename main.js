@@ -1,10 +1,11 @@
 window.$ = require('./node_modules/jquery/dist/node-jquery');
-var t = require('transformjs');
 require('./lib/storage/sync');
 var bus = require('./lib/bus').bus;
 var radar = require('./lib/model/radar').radar;
 var radarview =require('./lib/view/radarview.js');
 var techview =require('./lib/view/techview.js');
+
+var transform = require('transformjs');
 
 $('input').keydown(function(e){
     if(e.keyCode==13){
@@ -15,6 +16,9 @@ $('input').keydown(function(e){
     }
 })
 
-
+$(document).delegate('a[data-command]', 'click', function(e){
+    bus.emit('delete-tech', $(this).attr('data-command-arg'))
+    return false;
+})
 
 
